@@ -24,9 +24,11 @@ TARGET_SCREEN_HEIGHT := 1440
 BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
 TARGET_NOT_USE_GZIP_RECOVERY_RAMDISK := true
 
+# Gapps
+GAPPS_VARIANT := pico
+
 # Toolbox
 TW_USES_TOYBOX := true
 
 LOCAL_PATH := device/phh/hannaht
 include $(LOCAL_PATH)/kernel.mk
-
